@@ -7,9 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Arianne Kan - Portfolio</title>
   <meta name="description"
-    content="Hello there, I'm Arianne, who would love to be Theron's best friend">
+    content="Hello there, I'm Arianne, a final - year SMU student who loves photography">
   <!-- Favicon -->
-  <link rel="icon" type="image/x-icon" href="dist/assets/favicon.ico" />
+  <link rel="icon" type="image/x-icon" href="dist/assets/website icon.jpg" />
   <link rel="stylesheet" href="dist/output.css" />
   <link rel="stylesheet" href="styles.css" />
   <!-- Alpine.js -->
@@ -101,7 +101,7 @@
                 <span class="hidden md:block h-0.5 bg-black dark:bg-white"></span>
               </a>
             </li>
-            <li class="group transition duration-300">
+            <!-- <li class="group transition duration-300">
               <a href="dist/about_me.html" class="font-signika text-2xl tap-highlight-transparent">ABOUT ME
                 <span
                   class="hidden md:block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-black dark:bg-white"></span>
@@ -112,7 +112,7 @@
                 <span
                   class="hidden md:block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-black dark:bg-white"></span>
               </a>
-            </li>
+            </li> -->
           </ul>
         </div>
       </div>
@@ -120,217 +120,567 @@
   </header>
   <!-- Content -->
   <div class="container mx-auto">
-    <h1 class="text-4xl pt-10 pb-8 font-bold text-center">EXCHANGE</h1>
-
-    <!-- Inline navigation for cities -->
+    <h1 class="text-4xl pt-10 pb-8 font-bold text-center">PORTFOLIO</h1>
+  
+    <!-- Inline navigation for categories -->
     <div class="text-center mb-6">
-      <span class="font-signika city-item active" data-city="paris">Paris</span>
+      <span class="font-signika category-item active cursor-pointer" data-category="architecture">Architecture</span>
       <span class="text-gray-500 mx-2">|</span>
-      <span class="font-signika city-item" data-city="london">London</span>
+      <span class="font-signika category-item cursor-pointer" data-category="street">Street</span>
       <span class="text-gray-500 mx-2">|</span>
-      <span class="font-signika city-item" data-city="edinburgh">Edinburgh</span>
+      <span class="font-signika category-item cursor-pointer" data-category="event">Event</span>
+      <span class="text-gray-500 mx-2">|</span>
+      <span class="font-signika category-item cursor-pointer" data-category="people">People</span>
+      <span class="text-gray-500 mx-2">|</span>
+      <span class="font-signika category-item cursor-pointer" data-category="travel">Travel</span>
     </div>
-
+  
     <section class="text-neutral-700">
-      <div class="container w-full">
-        <div class="flex flex-wrap w-full">
-          <!-- Example photo for Paris -->
-          <div class="w-full md:w-1/2 p-1 photo" data-city="paris">
-            <div class="overflow-hidden h-full w-full">
-              <a href = "dist/assets/paris1.jpeg" data-fancybox="paris">
-                <img alt="Paris photo"
-                     class="block h-full w-full object-cover object-center transition duration-500 transform hover:scale-110"
-                     src="dist/assets/paris1.jpeg" />
-              </a>
-            </div>
+      <!-- ARCHITECTURE -->
+      <div class="container mx-auto my-8 photo-grid" data-category="architecture">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+          <!-- Architecture Images -->
+          <div class="overflow-hidden h-64">
+            <a href="dist/assets/architecture1portrait.JPG" data-fancybox="architecture">
+              <img 
+                src="dist/assets/architecture1portrait.JPG" 
+                alt="Architecture Photo 1" 
+                class="w-full h-full object-cover transition duration-500 transform hover:scale-110"
+              />
+            </a>
           </div>
-
-          <!-- Example photo for London -->
-          <div class="w-full md:w-1/2 p-1 photo" data-city="london">
-            <div class="overflow-hidden h-full w-full">
-              <a href = "dist/assets/london1.jpeg" data-fancybox="london">
-                <img alt="London photo"
-                     class="block h-full w-full object-cover object-center transition duration-500 transform hover:scale-110"
-                     src="dist/assets/london1.jpeg" />
-              </a>
-            </div>
+          <div class="overflow-hidden h-64">
+            <a href="dist/assets/architecture2portrait.JPG" data-fancybox="architecture">
+              <img 
+                src="dist/assets/architecture2portrait.JPG" 
+                alt="Architecture Photo 2" 
+                class="w-full h-full object-cover transition duration-500 transform hover:scale-110"
+              />
+            </a>
           </div>
-
-          <div class="w-full md:w-1/2 p-1 photo" data-city="london">
-            <div class="overflow-hidden h-full w-full">
-              <a href = "dist/assets/london2.jpeg" data-fancybox="london">
-                <img alt="London photo"
-                     class="block h-full w-full object-cover object-center transition duration-500 transform hover:scale-110"
-                     src="dist/assets/london2.jpeg" />
-              </a>
-            </div>
+          <div class="overflow-hidden h-64">
+            <a href="dist/assets/architecture3landscape.jpg" data-fancybox="architecture">
+              <img 
+                src="dist/assets/architecture3landscape.jpg" 
+                alt="Architecture Photo 3" 
+                class="w-full h-full object-cover transition duration-500 transform hover:scale-110"
+              />
+            </a>
           </div>
-
-          <div class="w-full md:w-1/2 p-1 photo" data-city="london">
-            <div class="overflow-hidden h-full w-full">
-              <a href = "dist/assets/london3.jpeg" data-fancybox="london">
-                <img alt="London photo"
-                     class="block h-full w-full object-cover object-center transition duration-500 transform hover:scale-110"
-                     src="dist/assets/london3.jpeg" />
-              </a>
-            </div>
+          <div class="overflow-hidden h-64">
+            <a href="dist/assets/architecture4landscape.jpg.jpg" data-fancybox="architecture">
+              <img 
+                src="dist/assets/architecture4landscape.jpg.jpg" 
+                alt="Architecture Photo 4" 
+                class="w-full h-full object-cover transition duration-500 transform hover:scale-110"
+              />
+            </a>
           </div>
-
-          <div class="w-full md:w-1/2 p-1 photo" data-city="london">
-            <div class="overflow-hidden h-full w-full">
-              <a href = "dist/assets/london4.jpeg" data-fancybox="london">
-                <img alt="London photo"
-                     class="block h-full w-full object-cover object-center transition duration-500 transform hover:scale-110"
-                     src="dist/assets/london4.jpeg" />
-              </a>
-            </div>
+          <div class="overflow-hidden h-64">
+            <a href="dist/assets/architecture5landscape.jpg.jpg" data-fancybox="architecture">
+              <img 
+                src="dist/assets/architecture5landscape.jpg.jpg" 
+                alt="Architecture Photo 5" 
+                class="w-full h-full object-cover transition duration-500 transform hover:scale-110"
+              />
+            </a>
           </div>
-
-          <!-- Example photo for Edinburgh -->
-          <div class="w-full p-1 photo" data-city="edinburgh">
-            <div class="overflow-hidden h-full w-full">
-              <a href = "dist/assets/edin1.jpeg" data-fancybox="edinburgh">
-                <img alt="Edinburgh photo"
-                     class="block h-full w-full object-cover object-center transition duration-500 transform hover:scale-110"
-                     src="dist/assets/edin1.jpeg" />
-              </a>
-            </div>
+          <div class="overflow-hidden h-64">
+            <a href="dist/assets/architecture6landscape.jpg.JPG" data-fancybox="architecture">
+              <img 
+                src="dist/assets/architecture6landscape.jpg.JPG" 
+                alt="Architecture Photo 6" 
+                class="w-full h-full object-cover transition duration-500 transform hover:scale-110"
+              />
+            </a>
           </div>
-
-          <div class="w-full p-1 photo" data-city="edinburgh">
-            <div class="overflow-hidden h-full w-full">
-              <a href = "dist/assets/edin2.jpeg" data-fancybox="edinburgh">
-                <img alt="Edinburgh photo"
-                     class="block h-full w-full object-cover object-center transition duration-500 transform hover:scale-110"
-                     src="dist/assets/edin2.jpeg" />
-              </a>
-            </div>
+          <!-- Uncomment below if you want to include these images -->
+          <!--
+          <div class="overflow-hidden h-64">
+            <a href="dist/assets/architecture7.jpg" data-fancybox="architecture">
+              <img 
+                src="dist/assets/architecture7.jpg" 
+                alt="Architecture Photo 7" 
+                class="w-full h-full object-cover transition duration-500 transform hover:scale-110"
+              />
+            </a>
           </div>
-
-          <div class="w-full p-1 photo" data-city="edinburgh">
-            <div class="overflow-hidden h-full w-full">
-              <a href = "dist/assets/edin3.jpeg" data-fancybox="edinburgh">
-                <img alt="Edinburgh photo"
-                     class="block h-full w-full object-cover object-center transition duration-500 transform hover:scale-110"
-                     src="dist/assets/edin3.jpeg" />
-              </a>
-            </div>
+          <div class="overflow-hidden h-64">
+            <a href="dist/assets/architecture8.jpg" data-fancybox="architecture">
+              <img 
+                src="dist/assets/architecture8.jpg" 
+                alt="Architecture Photo 8" 
+                class="w-full h-full object-cover transition duration-500 transform hover:scale-110"
+              />
+            </a>
           </div>
-
-          <div class="w-full p-1 photo" data-city="edinburgh">
-            <div class="overflow-hidden h-full w-full">
-              <a href = "dist/assets/edin4.jpeg" data-fancybox="edinburgh">
-                <img alt="Edinburgh photo"
-                     class="block h-full w-full object-cover object-center transition duration-500 transform hover:scale-110"
-                     src="dist/assets/edin4.jpeg" />
-              </a>
-            </div>
+          -->
+        </div>
+      </div>
+  
+      <!-- STREET -->
+      <div class="container mx-auto my-8 photo-grid hidden" data-category="street">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+          <!-- Street Images -->
+          <div class="overflow-hidden h-64">
+            <a href="dist/assets/street1portrait.JPG" data-fancybox="street">
+              <img 
+                src="dist/assets/street1portrait.JPG" 
+                alt="Street Photo 1" 
+                class="w-full h-full object-cover transition duration-500 transform hover:scale-110"
+              />
+            </a>
           </div>
-
-          <!-- Add additional photos here with the appropriate data-city values -->
-          <div class="w-full md:w-1/2 p-1 photo" data-city="paris">
-            <div class="overflow-hidden h-full w-full">
-              <a href = "dist/assets/paris2.jpeg" data-fancybox="paris">
-                <img alt="Paris photo"
-                     class="block h-full w-full object-cover object-center transition duration-500 transform hover:scale-110"
-                     src="dist/assets/paris2.jpeg" />
-              </a>
-            </div>
+          <div class="overflow-hidden h-64">
+            <a href="dist/assets/street2portrait.JPG" data-fancybox="street">
+              <img 
+                src="dist/assets/street2portrait.JPG" 
+                alt="Street Photo 2" 
+                class="w-full h-full object-cover transition duration-500 transform hover:scale-110"
+              />
+            </a>
           </div>
-          <div class="w-full md:w-1/2 p-1 photo" data-city="paris">
-            <div class="overflow-hidden h-full w-full">
-              <a href = "dist/assets/paris3.jpeg" data-fancybox="paris">
-                <img alt="Paris photo"
-                     class="block h-full w-full object-cover object-center transition duration-500 transform hover:scale-110"
-                     src="dist/assets/paris3.jpeg" />
-              </a>
-            </div>
+          <div class="overflow-hidden h-64">
+            <a href="dist/assets/street3landscape.JPG" data-fancybox="street">
+              <img 
+                src="dist/assets/street3landscape.JPG" 
+                alt="Street Photo 3" 
+                class="w-full h-full object-cover transition duration-500 transform hover:scale-110"
+              />
+            </a>
           </div>
-          <div class="w-full md:w-1/2 p-1 photo" data-city="paris">
-            <div class="overflow-hidden h-full w-full">
-              <a href = "dist/assets/paris4.jpeg" data-fancybox="paris">
-                <img alt="Paris photo"
-                     class="block h-full w-full object-cover object-center transition duration-500 transform hover:scale-110"
-                     src="dist/assets/paris4.jpeg" />
-              </a>
-            </div>
+          <div class="overflow-hidden h-64">
+            <a href="dist/assets/street4landscape.JPG" data-fancybox="street">
+              <img 
+                src="dist/assets/street4landscape.JPG" 
+                alt="Street Photo 4" 
+                class="w-full h-full object-cover transition duration-500 transform hover:scale-110"
+              />
+            </a>
           </div>
-          <div class="w-full md:w-1/2 p-1 photo" data-city="paris">
-            <div class="overflow-hidden h-full w-full">
-              <a href = "dist/assets/paris5.jpeg" data-fancybox="paris">
-                <img alt="Paris photo"
-                     class="block h-full w-full object-cover object-center transition duration-500 transform hover:scale-110"
-                     src="dist/assets/paris5.jpeg" />
-              </a>
-            </div>
+          <div class="overflow-hidden h-64">
+            <a href="dist/assets/street5landscape.JPG" data-fancybox="street">
+              <img 
+                src="dist/assets/street5landscape.JPG" 
+                alt="Street Photo 5" 
+                class="w-full h-full object-cover transition duration-500 transform hover:scale-110"
+              />
+            </a>
           </div>
-          <div class="w-full md:w-1/2 p-1 photo" data-city="paris">
-            <div class="overflow-hidden h-full w-full">
-              <a href = "dist/assets/paris6.jpeg" data-fancybox="paris">
-                <img alt="Paris photo"
-                     class="block h-full w-full object-cover object-center transition duration-500 transform hover:scale-110"
-                     src="dist/assets/paris6.jpeg" />
-              </a>
-            </div>
+          <!-- Additional images can be uncommented if needed -->
+          <!--
+          <div class="overflow-hidden h-64">
+            <a href="dist/assets/street6.jpg" data-fancybox="street">
+              <img 
+                src="dist/assets/street6.jpg" 
+                alt="Street Photo 6" 
+                class="w-full h-full object-cover transition duration-500 transform hover:scale-110"
+              />
+            </a>
           </div>
-          <div class="w-full md:w-1/2 p-1 photo" data-city="paris">
-            <div class="overflow-hidden h-full w-full">
-              <a href = "dist/assets/paris8.jpeg" data-fancybox="paris">
-                <img alt="Paris photo"
-                     class="block h-full w-full object-cover object-center transition duration-500 transform hover:scale-110"
-                     src="dist/assets/paris8.jpeg" />
-              </a>
-            </div>
+          <div class="overflow-hidden h-64">
+            <a href="dist/assets/street7.jpg" data-fancybox="street">
+              <img 
+                src="dist/assets/street7.jpg" 
+                alt="Street Photo 7" 
+                class="w-full h-full object-cover transition duration-500 transform hover:scale-110"
+              />
+            </a>
+          </div>
+          <div class="overflow-hidden h-64">
+            <a href="dist/assets/street8.jpg" data-fancybox="street">
+              <img 
+                src="dist/assets/street8.jpg" 
+                alt="Street Photo 8" 
+                class="w-full h-full object-cover transition duration-500 transform hover:scale-110"
+              />
+            </a>
+          </div>
+          -->
+        </div>
+      </div>
+  
+      <!-- EVENT -->
+      <div class="container mx-auto my-8 photo-grid hidden" data-category="event">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+          <!-- Event Images -->
+          <div class="overflow-hidden h-64">
+            <a href="dist/assets/event1portrait.jpg.JPG" data-fancybox="event">
+              <img 
+                src="dist/assets/event1portrait.jpg.JPG" 
+                alt="Event Photo 1" 
+                class="w-full h-full object-cover transition duration-500 transform hover:scale-110"
+              />
+            </a>
+          </div>
+          <div class="overflow-hidden h-64">
+            <a href="dist/assets/event2portrait.JPG" data-fancybox="event">
+              <img 
+                src="dist/assets/event2portrait.JPG" 
+                alt="Event Photo 2" 
+                class="w-full h-full object-cover transition duration-500 transform hover:scale-110"
+              />
+            </a>
+          </div>
+          <div class="overflow-hidden h-64">
+            <a href="dist/assets/event4landscape.JPG" data-fancybox="event">
+              <img 
+                src="dist/assets/event4landscape.JPG" 
+                alt="Event Photo 3" 
+                class="w-full h-full object-cover transition duration-500 transform hover:scale-110"
+              />
+            </a>
+          </div>
+          <div class="overflow-hidden h-64">
+            <a href="dist/assets/event5landscape.JPG" data-fancybox="event">
+              <img 
+                src="dist/assets/event5landscape.JPG" 
+                alt="Event Photo 4" 
+                class="w-full h-full object-cover transition duration-500 transform hover:scale-110"
+              />
+            </a>
+          </div>
+          <div class="overflow-hidden h-64">
+            <a href="dist/assets/event3portrait.JPG" data-fancybox="event">
+              <img 
+                src="dist/assets/event3portrait.JPG" 
+                alt="Event Photo 5" 
+                class="w-full h-full object-cover transition duration-500 transform hover:scale-110"
+              />
+            </a>
+          </div>
+          <div class="overflow-hidden h-64">
+            <a href="dist/assets/event6landscape.JPG" data-fancybox="event">
+              <img 
+                src="dist/assets/event6landscape.JPG" 
+                alt="Event Photo 6" 
+                class="w-full h-full object-cover transition duration-500 transform hover:scale-110"
+              />
+            </a>
+          </div>
+          <div class="overflow-hidden h-64">
+            <a href="dist/assets/event7landscape.JPG" data-fancybox="event">
+              <img 
+                src="dist/assets/event7landscape.JPG" 
+                alt="Event Photo 7" 
+                class="w-full h-full object-cover transition duration-500 transform hover:scale-110"
+              />
+            </a>
+          </div>
+          <div class="overflow-hidden h-64">
+            <a href="dist/assets/event8landscape.JPG" data-fancybox="event">
+              <img 
+                src="dist/assets/event8landscape.JPG" 
+                alt="Event Photo 8" 
+                class="w-full h-full object-cover transition duration-500 transform hover:scale-110"
+              />
+            </a>
+          </div>
+          <div class="overflow-hidden h-64">
+            <a href="dist/assets/event9portrait.JPG" data-fancybox="event">
+              <img 
+                src="dist/assets/event9portrait.JPG" 
+                alt="Event Photo 9" 
+                class="w-full h-full object-cover transition duration-500 transform hover:scale-110"
+              />
+            </a>
+          </div>
+          <div class="overflow-hidden h-64">
+            <a href="dist/assets/event10landscape.JPG" data-fancybox="event">
+              <img 
+                src="dist/assets/event10landscape.JPG" 
+                alt="Event Photo 10" 
+                class="w-full h-full object-cover transition duration-500 transform hover:scale-110"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+  
+      <!-- PEOPLE -->
+      <div class="container mx-auto my-8 photo-grid hidden" data-category="people">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+          <!-- People Images -->
+          <div class="overflow-hidden h-64">
+            <a href="dist/assets/people1portrait.JPG" data-fancybox="people">
+              <img 
+                src="dist/assets/people1portrait.JPG" 
+                alt="People Photo 1" 
+                class="w-full h-full object-cover transition duration-500 transform hover:scale-110"
+              />
+            </a>
+          </div>
+          <div class="overflow-hidden h-64">
+            <a href="dist/assets/people2portrait.JPG" data-fancybox="people">
+              <img 
+                src="dist/assets/people2portrait.JPG" 
+                alt="People Photo 2" 
+                class="w-full h-full object-cover transition duration-500 transform hover:scale-110"
+              />
+            </a>
+          </div>
+          <div class="overflow-hidden h-64">
+            <a href="dist/assets/people8landscape.JPG" data-fancybox="people">
+              <img 
+                src="dist/assets/people8landscape.JPG" 
+                alt="People Photo 3" 
+                class="w-full h-full object-cover transition duration-500 transform hover:scale-110"
+              />
+            </a>
+          </div>
+          <div class="overflow-hidden h-64">
+            <a href="dist/assets/people9landscape.JPG" data-fancybox="people">
+              <img 
+                src="dist/assets/people9landscape.JPG" 
+                alt="People Photo 4" 
+                class="w-full h-full object-cover transition duration-500 transform hover:scale-110"
+              />
+            </a>
+          </div>
+          <div class="overflow-hidden h-64">
+            <a href="dist/assets/people3portrait.JPG" data-fancybox="people">
+              <img 
+                src="dist/assets/people3portrait.JPG" 
+                alt="People Photo 5" 
+                class="w-full h-full object-cover transition duration-500 transform hover:scale-110"
+              />
+            </a>
+          </div>
+          <div class="overflow-hidden h-64">
+            <a href="dist/assets/people4portrait.JPG" data-fancybox="people">
+              <img 
+                src="dist/assets/people4portrait.JPG" 
+                alt="People Photo 6" 
+                class="w-full h-full object-cover transition duration-500 transform hover:scale-110"
+              />
+            </a>
+          </div>
+          <div class="overflow-hidden h-64">
+            <a href="dist/assets/people5portrait.JPG" data-fancybox="people">
+              <img 
+                src="dist/assets/people5portrait.JPG" 
+                alt="People Photo 7" 
+                class="w-full h-full object-cover transition duration-500 transform hover:scale-110"
+              />
+            </a>
+          </div>
+          <div class="overflow-hidden h-64">
+            <a href="dist/assets/people6portrait.JPG" data-fancybox="people">
+              <img 
+                src="dist/assets/people6portrait.JPG" 
+                alt="People Photo 8" 
+                class="w-full h-full object-cover transition duration-500 transform hover:scale-110"
+              />
+            </a>
+          </div>
+          <div class="overflow-hidden h-64">
+            <a href="dist/assets/people7portrait.JPG" data-fancybox="people">
+              <img 
+                src="dist/assets/people7portrait.JPG" 
+                alt="People Photo 9" 
+                class="w-full h-full object-cover transition duration-500 transform hover:scale-110"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+  
+      <!-- TRAVEL -->
+      <div class="container mx-auto my-8 photo-grid hidden" data-category="travel">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+          <!-- Travel Images -->
+          <div class="overflow-hidden h-64">
+            <a href="dist/assets/travel1portrait.JPG" data-fancybox="travel">
+              <img 
+                src="dist/assets/travel1portrait.JPG" 
+                alt="Travel Photo 1" 
+                class="w-full h-full object-cover transition duration-500 transform hover:scale-110"
+              />
+            </a>
+          </div>
+          <div class="overflow-hidden h-64">
+            <a href="dist/assets/travel2portrait.JPG" data-fancybox="travel">
+              <img 
+                src="dist/assets/travel2portrait.JPG" 
+                alt="Travel Photo 2" 
+                class="w-full h-full object-cover transition duration-500 transform hover:scale-110"
+              />
+            </a>
+          </div>
+          <div class="overflow-hidden h-64">
+            <a href="dist/assets/travel11landscape.JPG" data-fancybox="travel">
+              <img 
+                src="dist/assets/travel11landscape.JPG" 
+                alt="Travel Photo 3" 
+                class="w-full h-full object-cover transition duration-500 transform hover:scale-110"
+              />
+            </a>
+          </div>
+          <div class="overflow-hidden h-64">
+            <a href="dist/assets/travel12landscape.JPG" data-fancybox="travel">
+              <img 
+                src="dist/assets/travel12landscape.JPG" 
+                alt="Travel Photo 4" 
+                class="w-full h-full object-cover transition duration-500 transform hover:scale-110"
+              />
+            </a>
+          </div>
+          <div class="overflow-hidden h-64">
+            <a href="dist/assets/travel3portrait.JPG" data-fancybox="travel">
+              <img 
+                src="dist/assets/travel3portrait.JPG" 
+                alt="Travel Photo 5" 
+                class="w-full h-full object-cover transition duration-500 transform hover:scale-110"
+              />
+            </a>
+          </div>
+          <!-- <div class="overflow-hidden h-64">
+            <a href="dist/assets/travel13landscape.JPG" data-fancybox="travel">
+              <img 
+                src="dist/assets/travel13landscape.JPG" 
+                alt="Travel Photo 13" 
+                class="w-full h-full object-cover transition duration-500 transform hover:scale-110"
+              />
+            </a>
+          </div> -->
+          <div class="overflow-hidden h-64">
+            <a href="dist/assets/travel4portrait.JPG" data-fancybox="travel">
+              <img 
+                src="dist/assets/travel4portrait.JPG" 
+                alt="Travel Photo 6" 
+                class="w-full h-full object-cover transition duration-500 transform hover:scale-110"
+              />
+            </a>
+          </div>
+          <div class="overflow-hidden h-64">
+            <a href="dist/assets/travel5portrait.JPG" data-fancybox="travel">
+              <img 
+                src="dist/assets/travel5portrait.JPG" 
+                alt="Travel Photo 7" 
+                class="w-full h-full object-cover transition duration-500 transform hover:scale-110"
+              />
+            </a>
+          </div>
+          <div class="overflow-hidden h-64">
+            <a href="dist/assets/travel6portrait.JPG" data-fancybox="travel">
+              <img 
+                src="dist/assets/travel6portrait.JPG" 
+                alt="Travel Photo 8" 
+                class="w-full h-full object-cover transition duration-500 transform hover:scale-110"
+              />
+            </a>
+          </div>
+          <div class="overflow-hidden h-64">
+            <a href="dist/assets/travel7portrait.JPG" data-fancybox="travel">
+              <img 
+                src="dist/assets/travel7portrait.JPG" 
+                alt="Travel Photo 9" 
+                class="w-full h-full object-cover transition duration-500 transform hover:scale-110"
+              />
+            </a>
+          </div>
+          <div class="overflow-hidden h-64">
+            <a href="dist/assets/travel8portrait.JPG" data-fancybox="travel">
+              <img 
+                src="dist/assets/travel8portrait.JPG" 
+                alt="Travel Photo 10" 
+                class="w-full h-full object-cover transition duration-500 transform hover:scale-110"
+              />
+            </a>
+          </div>
+          <div class="overflow-hidden h-64">
+            <a href="dist/assets/travel9portrait.JPG" data-fancybox="travel">
+              <img 
+                src="dist/assets/travel9portrait.JPG" 
+                alt="Travel Photo 11" 
+                class="w-full h-full object-cover transition duration-500 transform hover:scale-110"
+              />
+            </a>
+          </div>
+          <div class="overflow-hidden h-64">
+            <a href="dist/assets/travel10portrait.JPG" data-fancybox="travel">
+              <img 
+                src="dist/assets/travel10portrait.JPG" 
+                alt="Travel Photo 12" 
+                class="w-full h-full object-cover transition duration-500 transform hover:scale-110"
+              />
+            </a>
+          </div>
+          <div class="overflow-hidden h-64">
+            <a href="dist/assets/travel14portrait.JPG" data-fancybox="travel">
+              <img 
+                src="dist/assets/travel14portrait.JPG" 
+                alt="Travel Photo 13" 
+                class="w-full h-full object-cover transition duration-500 transform hover:scale-110"
+              />
+            </a>
+          </div>
+          <div class="overflow-hidden h-64">
+            <a href="dist/assets/travel15landscape.JPG" data-fancybox="travel">
+              <img 
+                src="dist/assets/travel15landscape.JPG" 
+                alt="Travel Photo 14" 
+                class="w-full h-full object-cover transition duration-500 transform hover:scale-110"
+              />
+            </a>
+          </div>
+          <div class="overflow-hidden h-64">
+            <a href="dist/assets/travel16landscape.JPG" data-fancybox="travel">
+              <img 
+                src="dist/assets/travel16landscape.JPG" 
+                alt="Travel Photo 15" 
+                class="w-full h-full object-cover transition duration-500 transform hover:scale-110"
+              />
+            </a>
           </div>
         </div>
       </div>
     </section>
   </div>
   
+  <!-- Fancybox JS -->
+  <!--<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script> -->
   
-  
-  <!-- JavaScript to filter photos based on dropdown selection -->
+  <!-- Simple Toggle Script -->
   <script>
-    // Function to filter photos based on the selected city
-    function filterPhotos(selectedCity) {
-      const photos = document.querySelectorAll('.photo');
-      photos.forEach(photo => {
-        photo.style.display = photo.getAttribute('data-city') === selectedCity ? '' : 'none';
-      });
-    }
-
-    // Set up click event listeners on each city item
-    const cityItems = document.querySelectorAll('.city-item');
-    cityItems.forEach(item => {
-      item.addEventListener('click', function () {
-        // Remove 'active' class from all items and add to the clicked one
-        cityItems.forEach(i => i.classList.remove('active'));
-        this.classList.add('active');
-        // Filter photos based on the clicked city's data attribute
-        const selectedCity = this.getAttribute('data-city');
-        filterPhotos(selectedCity);
+    const categoryItems = document.querySelectorAll('.category-item');
+    const photoGrids = document.querySelectorAll('.photo-grid');
+  
+    categoryItems.forEach((item) => {
+      item.addEventListener('click', () => {
+        // Remove "active" from all category buttons
+        categoryItems.forEach((i) => i.classList.remove('active'));
+        // Add "active" to the clicked button
+        item.classList.add('active');
+  
+        // Show/hide photo grids based on the clicked category
+        const selectedCategory = item.dataset.category;
+        photoGrids.forEach((grid) => {
+          if (grid.dataset.category === selectedCategory) {
+            grid.classList.remove('hidden');
+          } else {
+            grid.classList.add('hidden');
+          }
+        });
       });
     });
-
-    // On page load, display only the photos for the default city (Paris)
-    document.addEventListener("DOMContentLoaded", function() {
-      filterPhotos('paris');
-    });
+  
+    // Bind Fancybox to all elements with [data-fancybox]
+    Fancybox.bind("[data-fancybox]", {});
   </script>
+  
   
   <!-- Footer -->
   </footer>
     <div>
       <p class="mt-8 text-xs text-gray-600 dark:text-gray-300 text-center">
         © 2025  
-        <a href="https://www.linkedin.com/in/joão-franco-452161195/" class="underline">Arianne Kan</a>
+        <a href="https://www.instagram.com/arikoy.jpg?igsh=aXFhZzZyOGluaDA0&utm_source=qr" class="underline">Arianne Kan</a>
       </p>
     </div>
   </footer>
   <!-- Script for the LightBox -->
-  <script>
-    Fancybox.bind("[data-fancybox]", {});
-  </script>
+  
   <script src="dist/fade_in.js"></script>
   <script src="dist/menu.js"></script>
 </body>
